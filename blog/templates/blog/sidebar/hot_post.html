@@ -1,0 +1,8 @@
+{% load category %}
+{% get_hot2_post  as post_list %}
+{% for post in post_list %}
+  <ui>
+      <li><a href="{% url 'blog:post_detail' post.id %}">{{ post.title }}</li>
+  </ui>
+
+{% endfor %}
