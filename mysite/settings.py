@@ -137,7 +137,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # 发送邮件配置
 EMAIL_HOST = 'smtp.163.com'
 EMAIL_HOST_USER = 'd6756946@163.com'
-EMAIL_HOST_PASSWORD = 'Dyc52o1314@163'
+EMAIL_HOST_PASSWORD = ''   # 修改你的邮箱密码
 EMAIL_PORT = 465
 EMAIL_USE_SSL = True
 
